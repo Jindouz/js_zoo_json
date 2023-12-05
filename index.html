@@ -173,9 +173,6 @@
                 }
 
                 console.log(animals); // debug log - displays the animals array in the console
-                console.log("data has also been saved to local storage."); // debug log - declaring that the data has been saved to local storage
-
-
                 // added .reverse() to display the database in reverse order so that new entries are always at the top
                 msg.innerHTML = animals.reverse().map((animals) => {
                     const imageUrl = getImageForSpecies(animals.species);
